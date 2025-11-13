@@ -1,0 +1,22 @@
+nav ul{
+    color: red;
+    background-color: aquamarine;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    position: relative;
+}
+nav ul li{
+    position: relative;
+}
+nav ul li:after{
+    content:"";
+    position:absolute;
+    width: 0px;
+    height: 2px;
+    background-color: black;
+    bottom: 0;
+    transition: all 1s;
+}
+nav ul li:hover:after{
+    width: 100%;
+}

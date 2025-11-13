@@ -30,5 +30,6 @@ img{
     margin: 0 auto;
 }
 a{
+    display: block;
     font-size:1rem;
 }
